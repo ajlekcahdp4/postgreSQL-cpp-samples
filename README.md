@@ -1,7 +1,6 @@
 # postgreSQL C++ API tutorial
-
-
-## APIs
+All the samples were taken from [here](https://www.tutorialspoint.com/postgresql/postgresql_c_cpp.htm)
+## Interface APIs
 | APIs | Description |
 | :---- | ------------ |
 | pqxx::connection | This is a typedef which will be used to connect to the database. Here, dbstring provides required parameters to connect to the datbase, for example dbname = testdb user = postgres password=pass123 hostaddr=127.0.0.1 port=5432. If connection is setup successfully then it creates C with connection object which provides various useful function public function. |
